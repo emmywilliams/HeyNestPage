@@ -2285,10 +2285,16 @@ textarea.form-control {
 
 .header .navbar .navbar-brand .logo-dark {
 	display: none;
+	max-width: 150px;
+    height: auto;
+    transition: max-width 0.3s ease;
 }
 
 .header .navbar .navbar-brand .logo-light {
 	display: inline-block;
+	max-width: 150px;
+    height: auto;
+    transition: max-width 0.3s ease;
 }
 
 .header .navbar .navbar-nav>li {
