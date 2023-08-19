@@ -3606,6 +3606,12 @@ textarea.form-control {
 	margin-bottom    : 19px;
 }
 
+
+.feature-icon i {
+	font-size: 58px;
+	color: #fff;
+}
+
 .feature-card .feature-content {
 	-webkit-box-flex : 1;
 	-ms-flex-positive: 1;
@@ -5034,4 +5040,19 @@ h1 .hero-title {
 
 .container .r2 {
 	padding-top: 30px;
+}
+
+/* abut image */
+.image-container {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	height: 100%;
+	margin-right: 20px;
+}
+
+.img-fluid {
+	max-width: 55%;
+	width: auto;
+	height: auto;
 }
