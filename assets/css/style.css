@@ -3562,6 +3562,12 @@ textarea.form-control {
 	color: var(--global--color-light);
 }
 
+.feature-card:hover,
+.feature-card.active:hover {
+	transform: scale(1.05);
+}
+
+
 @media screen and (max-width: 991px) {
 	.feature-card {
 		max-width: 370px;
@@ -5024,4 +5030,8 @@ h1 .hero-title {
 
 .landing-featues .feature-box {
 	margin-bottom: 50px;
+}
+
+.container .r2 {
+	padding-top: 30px;
 }
