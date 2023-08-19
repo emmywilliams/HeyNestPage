@@ -46,8 +46,8 @@ custom.css and it will override the style in this file. You have been warned! :)
 :root {
 	--global--font-body      : 'Roboto', sans-serif;
 	--global--font-heading   : 'Rubik', sans-serif;
-	--global--color-primary  : #ff7d3b;
-	--global--color-secondary: #451cc0;
+	--global--color-primary  : #FFCB57;
+	--global--color-secondary: #2D0F44;
 	--global--color-body     : #60698d;
 	--global--color-heading  : #1f1845;
 	--global--color-white    : #ffffff;
@@ -2666,8 +2666,8 @@ textarea.form-control {
 		line-height     : 40px;
 		font-size       : 13px;
 		margin-right    : 0px;
-		background-color: var(--global--color-secondary);
-		border-color    : var(--global--color-secondary);
+		background-color: #2D0F44;
+		border-color    : #2D0F44;
 		color           : #fff;
 	}
 
@@ -2764,6 +2764,7 @@ textarea.form-control {
 	font-size    : 45px;
 	line-height  : 60px;
 	margin-bottom: 14px;
+	color: #FFCB57;
 }
 
 @media screen and (max-width: 767px) {
@@ -4882,9 +4883,13 @@ textarea.form-control {
 
 .landing-hero .landing-content h1 {
 	font-size    : 45px;
-	font-weight  : 500;
+	font-weight  : 700;
 	line-height  : 1.5;
 	margin-bottom: 33px;
+}
+
+h1 .hero-title {
+    color: goldenrod;
 }
 
 @media screen and (max-width: 991px) {
