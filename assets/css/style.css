@@ -2019,11 +2019,18 @@ textarea.form-control {
 	border-radius: 18px;
 }
 
+.blog .blog-image {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+	object-position: top;
+}
+
 .blog .blog-card .blog-img img {
 	-webkit-transition: 0.3s ease-in-out;
 	-o-transition     : 0.3s ease-in-out;
 	transition        : 0.3s ease-in-out;
-	max-width         : 100%;
+	max-width         : 1000%;
 }
 
 .blog .blog-card .blog-content {
@@ -3102,7 +3109,7 @@ textarea.form-control {
 	line-height   : 1.8;
 	font-weight   : 300;
 	text-transform: capitalize;
-	color         : var(--global--color-body);
+	color         : var(--global--color-secondary);
 	margin-bottom : 0px;
 }
 
@@ -5055,4 +5062,63 @@ h1 .hero-title {
 	max-width: 55%;
 	width: auto;
 	height: auto;
+}
+
+/* features */
+.features .single-feature {
+    padding: 30px;
+    text-align: center;
+	box-shadow: 0 15px 17px 0 rgb(154 154 154 / 18%); 
+}
+
+.features .single-feature .icon {
+    position: relative;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    margin: 0 auto 30px;
+    background-color: #2D0F44;
+    color: #fff;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.features .single-feature .color-2 {
+    background-color: #FFCB57;
+}
+
+.features .single-feature .color-3 {
+    background-color: #FFC8A3 ;
+}
+
+.features .single-feature .icon::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+    border-radius: inherit;
+    top: -8px;
+    right: -8px;
+    z-index: -1;
+    opacity: .2;
+    transition: all .3 ease-out 0s;
+}
+
+.features .single-feature:hover {
+    transform: scale(1.05);
+	transition: all .3 ease-out 0s;
+}
+
+.features .single-feature .content {
+    margin-top: 25px;
+}
+
+.features .single-feature .content h3 {
+	font-weight: 600;
+	font-size: 30px;
+	margin-bottom: 10px;
 }
