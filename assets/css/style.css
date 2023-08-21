@@ -3330,6 +3330,10 @@ textarea.form-control {
 
 .screenshots .owl-carousel .owl-stage-outer .owl-item img {
 	border-radius: 18px;
+	max-height: 100%;
+	max-width: 100%;
+	width: auto;
+	height: auto;
 }
 
 @media screen and (max-width:991px) {
@@ -3344,6 +3348,7 @@ textarea.form-control {
 	.screenshots .owl-carousel .owl-stage-outer .owl-item img {
 		max-width : 300px;
 		max-height: 615px;
+		
 	}
 }
 
@@ -3351,6 +3356,7 @@ textarea.form-control {
 	.screenshots .owl-carousel .owl-stage-outer .owl-item img {
 		max-width : 300px;
 		max-height: 615px;
+		
 	}
 }
 
