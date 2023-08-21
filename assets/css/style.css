@@ -2017,6 +2017,7 @@ textarea.form-control {
 .blog .blog-card .blog-img {
 	overflow     : hidden;
 	border-radius: 18px;
+	border: 1.5px solid #FFCB57;
 }
 
 .blog .blog-image {
@@ -5121,4 +5122,46 @@ h1 .hero-title {
 	font-weight: 600;
 	font-size: 30px;
 	margin-bottom: 10px;
+}
+
+
+/* logo footer */
+.logo-footer img {
+    width: 230px;
+    height: auto;
+    margin-bottom: 35px;
+}
+
+.logo-footer {
+    filter: brightness(0) invert(1);
+    display: inline-block;
+}
+
+.logo-footer:hover {
+    transform: scale(1.1); 
+}
+
+/* social links */
+.social a {
+    width: 34px;
+    height: 34px;
+    background-color: rgba(255, 255, 255, 0.4);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 19px;
+    border-radius: 100%;
+    margin: 0 2.5px;
+}
+
+.social a:hover {
+	color: #2D0F44;
+    transform: scale(1.2);
+}
+
+footer .social a {
+    margin: 0 0px;
+    width: 38px;
+    height: 38px;
 }
