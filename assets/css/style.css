@@ -3290,6 +3290,15 @@ textarea.form-control {
 	z-index          : 3;
 }
 
+/* bigger screens */
+@media screen and (min-width: 427px) {
+    .screenshots .screenshot-warp:before {
+      width: 200px;  /* Adjust the width accordingly */
+      height: 500px; /* Adjust the height accordingly */
+    }
+}
+
+
 @media screen and (min-width: 992px) and (max-width: 1200px) {
 	.screenshots .screenshot-warp:before {
 		width: 276px;
@@ -5171,3 +5180,31 @@ footer .social a {
     width: 38px;
     height: 38px;
 }
+
+/* slider */
+.slider {
+	width: 100%;
+	overflow: hidden;
+  }
+  
+  .slider-container {
+	display: flex;
+	transition: transform 0.5s ease-in-out;
+  }
+  
+  .slider-track {
+	display: flex;
+  }
+  
+  .slider-item {
+	flex: 0 0 100%;
+	max-width: 100%;
+	text-align: center;
+  }
+  
+  .slider-item img {
+	max-width: 50%;
+	height: auto;
+  }
+  
+  
