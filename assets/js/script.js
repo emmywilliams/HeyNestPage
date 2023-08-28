@@ -22,3 +22,20 @@ function prevSlide() {
 
 updateSlider();
 setInterval(nextSlide, 5000); // Auto slide every 5 seconds
+
+// chat pop up
+const chatPopup = document.querySelector(".chat-popup");
+const closeChatBtn = document.querySelector(".close-chat-btn");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    chatPopup.classList.add("active");
+  } else {
+    chatPopup.classList.remove("active");
+  }
+});
+
+// close button
+closeChatBtn.addEventListener("click", () => {
+  chatPopup.classList.remove("active");
+});
