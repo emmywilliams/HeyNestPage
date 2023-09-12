@@ -4569,11 +4569,26 @@ textarea.form-control {
 	font-size     : 18px;
 	line-height   : 1.5;
 	font-weight   : 500;
-	color         : var(--global--color-white);
+	color         : #FFCB57;
 	text-transform: capitalize;
 	position      : relative;
 	margin-bottom : 30px;
 }
+
+/* Remove underline and increase font size for list items */
+.footer-widget.widget-links ul.list-unstyled li a {
+	text-decoration: none; /* Remove underline */
+	font-size: 16px; /* Increase font size to your desired value */
+	transition: transform 0.2s; /* Add a smooth scaling transition on hover */
+  }
+  
+  /* Add scaling effect on hover */
+  .footer-widget.widget-links ul.list-unstyled li a:hover {
+	transform: scale(1.1); /* Adjust the scale factor as needed */
+	color: #FFCB57;
+	;
+  }
+  
 
 .footer .footer-top .widget-about p {
 	font-size     : 16px;
@@ -5161,7 +5176,7 @@ h1 .hero-title {
 }
 
 .logo-footer {
-    filter: brightness(0) invert(1);
+    /* filter: brightness(0) invert(1); */
     display: inline-block;
 }
 
